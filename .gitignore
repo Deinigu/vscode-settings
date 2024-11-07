@@ -1,6 +1,7 @@
-# Ignorar todo
+# Ignore everything
 *
 
-# Excluir settings.json
+# Exclude settings.json, .gitignore and README.md
 !settings.json
 !.gitignore
+!README.md
