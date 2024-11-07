@@ -1,0 +1,20 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.presets.hideExplorerArrows": true,
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.sideBar.location": "right",
+
+  "editor.stickyScroll.enabled": false,
+
+  "git.confirmSync": false,
+
+  "github.copilot.editor.enableAutoCompletions": true,
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "workbench.activityBar.location": "top",
+  "workbench.startupEditor": "none",
+}

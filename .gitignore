@@ -1,0 +1,6 @@
+# Ignorar todo
+*
+
+# Excluir settings.json
+!settings.json
+!.gitignore
