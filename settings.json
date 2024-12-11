@@ -1,11 +1,15 @@
 {
   // Icons and Theme
-  "workbench.iconTheme": "vscode-icons", // Icon theme for the editor
+  "workbench.iconTheme": "material-icon-theme", // Icon theme for the editor
   "workbench.colorTheme": "One Dark Pro", // Color theme for the editor
 
   // File Explorer and Tree Settings
-  "vsicons.presets.hideExplorerArrows": false, // Show arrows in file explorer
+  "material-icon-theme.hidesExplorerArrows": false, // Show arrows in file explorer
   "workbench.tree.renderIndentGuides": "onHover", // Show indentation guides on hover
+  "breadcrumbs.enabled": false, // Show Breadcrumbs
+  "explorer.confirmDelete": false, // Confirm delete
+  "explorer.confirmDragAndDrop": false, // Confirm Drag and Drop
+  "explorer.compactFolders": false,
 
   // Editor Settings
   "editor.stickyScroll.enabled": false, // Disable sticky scroll in the editor
@@ -13,6 +17,13 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter" // Use Black formatter for Python files
   },
+  "editor.renderWhitespace": "none", // Whitespaces selection
+  "editor.cursorBlinking": "solid", // Cursor blinking
+  "editor.cursorSmoothCaretAnimation": "on", // Cursor animation
+  "editor.fontFamily": "JetBrainsMono Nerd Font", // Editor font family
+  "editor.fontSize": 14, // Editor font size
+  "editor.lineHeight": 1.8, // Editor lineHeight
+  "editor.minimap.enabled": false, // Minimap
 
   // Git Settings
   "git.confirmSync": false, // Disable confirmation prompts for Git sync
@@ -29,11 +40,20 @@
   // Layout Settings
   "workbench.sideBar.location": "right", // Move sidebar to the right
   "workbench.activityBar.location": "top", // Move activity bar to the top
+  "workbench.statusBar.visible": false, // No status bar (bottom)
+  "workbench.tips.enabled": false, // No startup tips
+  "window.menuBarVisibility": "toggle", // Pres alt to see the menu
+  "workbench.layoutControl.enabled": false, // Enable terminal tabs
 
   // Notebook Settings
   "notebook.output.scrolling": true, // Enable scrolling for notebook outputs
 
   // Terminal Settings
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font", // Set font for integrated terminal
-  "terminal.integrated.tabs.enabled": true // Enable terminal tabs
+  "terminal.integrated.tabs.enabled": true, // Terminal tabs
+
+  // Other settings
+  "extensions.ignoreRecommendations": true, // Ignore recomendations
+  "files.insertFinalNewline": true, // Insert new final line
+  "files.autoSave": "afterDelay" // Autosave
 }
