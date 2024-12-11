@@ -1,20 +1,39 @@
 {
-  "workbench.iconTheme": "vscode-icons",
-  "vsicons.presets.hideExplorerArrows": true,
-  "workbench.colorTheme": "One Dark Pro",
-  "workbench.tree.renderIndentGuides": "none",
-  "workbench.sideBar.location": "right",
+  // Icons and Theme
+  "workbench.iconTheme": "vscode-icons", // Icon theme for the editor
+  "workbench.colorTheme": "One Dark Pro", // Color theme for the editor
 
-  "editor.stickyScroll.enabled": false,
+  // File Explorer and Tree Settings
+  "vsicons.presets.hideExplorerArrows": false, // Show arrows in file explorer
+  "workbench.tree.renderIndentGuides": "onHover", // Show indentation guides on hover
 
-  "git.confirmSync": false,
-
-  "github.copilot.editor.enableAutoCompletions": true,
-
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // Editor Settings
+  "editor.stickyScroll.enabled": false, // Disable sticky scroll in the editor
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // Default formatter for all files
   "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter"
+    "editor.defaultFormatter": "ms-python.black-formatter" // Use Black formatter for Python files
   },
-  "workbench.activityBar.location": "top",
-  "workbench.startupEditor": "none",
+
+  // Git Settings
+  "git.confirmSync": false, // Disable confirmation prompts for Git sync
+
+  // Startup Settings
+  "workbench.startupEditor": "none", // Open without a default editor on startup
+
+  // Security Settings
+  "security.allowedUNCHosts": ["wsl.localhost"], // Allow specific hosts for UNC paths
+
+  // Markdown Preview Settings
+  "markdown-preview-enhanced.previewTheme": "one-dark.css", // Set preview theme for Markdown
+
+  // Layout Settings
+  "workbench.sideBar.location": "right", // Move sidebar to the right
+  "workbench.activityBar.location": "top", // Move activity bar to the top
+
+  // Notebook Settings
+  "notebook.output.scrolling": true, // Enable scrolling for notebook outputs
+
+  // Terminal Settings
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font", // Set font for integrated terminal
+  "terminal.integrated.tabs.enabled": true // Enable terminal tabs
 }
