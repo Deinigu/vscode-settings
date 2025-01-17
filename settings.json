@@ -24,6 +24,7 @@
   "editor.fontSize": 14, // Editor font size
   "editor.lineHeight": 1.8, // Editor lineHeight
   "editor.minimap.enabled": false, // Minimap
+  "editor.formatOnSave": true,
 
   // Git Settings
   "git.confirmSync": false, // Disable confirmation prompts for Git sync
@@ -41,9 +42,7 @@
   "workbench.sideBar.location": "right", // Move sidebar to the right
   "workbench.activityBar.location": "top", // Move activity bar to the top
   "workbench.statusBar.visible": false, // No status bar (bottom)
-  "workbench.tips.enabled": false, // No startup tips
-  "window.menuBarVisibility": "toggle", // Pres alt to see the menu
-  "workbench.layoutControl.enabled": false, // Enable terminal tabs
+  "workbench.tips.enabled": false, // Enable terminal tabs
 
   // Notebook Settings
   "notebook.output.scrolling": true, // Enable scrolling for notebook outputs
@@ -55,5 +54,13 @@
   // Other settings
   "extensions.ignoreRecommendations": true, // Ignore recomendations
   "files.insertFinalNewline": true, // Insert new final line
-  "files.autoSave": "afterDelay" // Autosave
+  "files.autoSave": "afterDelay",
+  "makefile.configureOnOpen": true,
+  "workbench.layoutControl.enabled": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "chat.commandCenter.enabled": false,
+  "window.menuBarVisibility": "hidden",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  } // Autosave
 }
