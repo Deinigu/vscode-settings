@@ -66,20 +66,4 @@
   "catppuccin.accentColor": "blue",
   "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "material-icon-theme",
-  "[astro]": {
-    "editor.defaultFormatter": "astro-build.astro-vscode"
-  },
-  "cosmosDB.showSavePrompt": false,
-  "github.copilot.nextEditSuggestions.enabled": true,
-  "@azure.argTenant": "5c384fed-84cc-44a6-b34a-b060bf102a6e",
-  "chat.tools.terminal.autoApprove": {
-    "cp": true,
-    "nl": true,
-    "/^cd \"/Users/diego\\.lopez/Documents/JG Ingenieros/Blob Storage\" && python convert_to_template\\.py$/": {
-      "approve": true,
-      "matchCommandLine": true
-    }
-  },
-  "chat.viewSessions.orientation": "stacked",
-  "chat.viewSessions.enabled": false
 }
